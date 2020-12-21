@@ -1,0 +1,38 @@
+/*----------320px mobiel first-----------------*/
+
+
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+
+h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 15px;
+}
+
+.boton{
+    font-family: 'Barlow Condensed', sans-serif;
+    border: solid 1px white
+}
+
+.boton-ver {
+    font-size: 16px;
+}
+
+
+@media (min-width: 768px) {
+    h1 {
+        margin-top: 5rem;
+        font-size: 50px;
+    }
+    
+    h2 {
+        margin-top: 2rem;
+        font-size: 40px;
+    }
+
+    .boton-ver {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,13 @@
+h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+}
+
+label, input {
+    font-family: 'Roboto', sans-serif;
+}
+
+.boton{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+}

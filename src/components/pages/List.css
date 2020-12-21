@@ -1,0 +1,55 @@
+/*------320 px mobile first -------*/
+
+table {
+    background-color: #000000;
+}
+
+
+th {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: x-small;
+}
+
+td {
+    font-family: 'Roboto', sans-serif;
+    font-size: x-small;
+}
+
+.click{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 9px;
+}
+
+.titulo {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+}
+
+@media (min-width: 375px) {
+    th {
+        font-size: small;
+    }
+    
+    td {
+        font-size: small;
+    }
+
+    .click{
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 768px) {
+    th {
+        font-size: large;
+    }
+    
+    td {
+        font-size: large;
+    }
+    
+    .click{
+        font-size: 16px;
+    }
+    
+}
