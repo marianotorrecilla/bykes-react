@@ -5,6 +5,7 @@ import Edit from './Edit';
 import Product from './Product';
 import {Container, Row, Col, Button, Table} from 'react-bootstrap';
 import {toast} from 'react-toastify';
+import Swal from 'sweetalert2';
 import './List.css';
 const db = app.firestore()
 
@@ -24,7 +25,7 @@ const List = () => {
         })
     }
 
-    const onDeleteProduct = async (id) => {
+    /*const onDeleteProduct = async (id) => {
         if(window.confirm('¿Estás seguro que querés eliminar este producto?')) {
             await db.collection('products').doc(id).delete();
             toast('Producto Eliminado!', {
@@ -32,6 +33,28 @@ const List = () => {
                 autoClose: 2000
             })
         }
+    }*/
+
+    const onDeleteProduct = (id) => {
+        Swal.fire({
+            title: 'Estás seguro que querés eliminar este producto?',
+            text: "Atención! Lo borrarás definitivamente y no podrás recuperarlo!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#FF3333',
+            cancelButtonColor: '#000000',
+            confirmButtonText: 'Quiero Eliminarlo!'
+          }).then((result) => {
+            if (result.isConfirmed) {
+                db.collection('products').doc(id).delete();
+                toast('Producto Eliminado!', {
+                    type: "error",
+                    autoClose: 2000
+                })
+            }
+          })
+
+        
     }
 
 
