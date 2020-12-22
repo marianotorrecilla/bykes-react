@@ -1,16 +1,18 @@
 import './App.css';
-import React from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
-import NavBar from './components/layout/NavBar'
+import React, {lazy, Suspense} from 'react';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import NavBar from './components/layout/NavBar';
+import Footer from './components/layout/Footer';
 import Home from './components/pages/Home';
 import Products from './components/pages/Products';
 import ProductInd from './components/pages/ProductInd';
 import Create from './components/pages/Create';
 import Edit from './components/pages/Edit';
-import List from './components/pages/List';
-import Footer from './components/layout/Footer';
-import {ToastContainer} from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import Loading from './components/layout/Loading';
+const List = lazy(() => import("./components/pages/List"))
+
 
 function App() {
   return (
@@ -20,8 +22,14 @@ function App() {
 
         <Route path="/" exact component={Home} />
         <Route path="/products" exact component={Products} />
-        <Route path="/products/:id" exact component={ProductInd} /> 
-        <Route path="/administrar" exact component={List} />
+        <Route path="/products/:id" exact component={ProductInd} />
+        
+        <Suspense fallback={<Loading />}>
+          <Switch>
+            <Route path="/administrar" exact component={List} />
+          </Switch> 
+        </Suspense> 
+        
         <Route path="/administrar/create" exact component={Create} />
         <Route path="/administrar/edit/:id" exact component={Edit} />
        
