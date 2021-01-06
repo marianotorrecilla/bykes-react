@@ -109,9 +109,7 @@ const Edit = (props) => {
                             <Button type="submit" className="btn btn-warning btn-lg btn-block boton">
                             EDITAR
                             </Button>
-                            <Button type="submit" className="btn btn-danger btn-lg btn-block boton" >
-                                <Link to={'/administrar'} style={{color:'white'}}> Volver </Link>
-                            </Button>
+                            
                         </Form>
                     </Col>
                 </Row>

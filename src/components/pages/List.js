@@ -25,16 +25,6 @@ const List = () => {
         })
     }
 
-    /*const onDeleteProduct = async (id) => {
-        if(window.confirm('¿Estás seguro que querés eliminar este producto?')) {
-            await db.collection('products').doc(id).delete();
-            toast('Producto Eliminado!', {
-                type: "error",
-                autoClose: 2000
-            })
-        }
-    }*/
-
     const onDeleteProduct = (id) => {
         Swal.fire({
             title: 'Estás seguro que querés eliminar este producto?',
@@ -63,9 +53,6 @@ const List = () => {
     }, [])
 
     
-
-
-
     return (
         <>
         <Container>

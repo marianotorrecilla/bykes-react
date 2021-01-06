@@ -47,9 +47,7 @@ const Product = (props) => {
                                             <p>{product.descripcion}</p>
                                             <h5>Precio: ${product.precio}</h5>
                                         </Card.Text>
-                                        <Button className="boton-productos" variant="dark">
-                                            <Link to={'/administrar'} style={{color:'white'}}> Volver </Link>
-                                        </Button>
+                                        
                                     </Card.Body>
                                 </Card>
                             

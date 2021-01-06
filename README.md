@@ -29,22 +29,12 @@ ___
     - __Yup__
 
 
-+ ## ___Caracteristicas Principales___
++ ## ___Características Principales___
     1. Minimalismo
     2. Practicidad
     3. Funcionalidad
 ___
 
-
-+ ## ___Paleta de colores___
-    - __Basado en la siguiente:__ [___Link___](https://coolors.co/000000-91918d-ff6000-49d4c6-ffffff)
-        1. ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `#000000`
-	    2. ![#91918D](https://via.placeholder.com/15/91918D/000000?text=+) `#91918D`
-	    3. ![#FF6000](https://via.placeholder.com/15/FF6000/000000?text=+) `#FF6000`
-        4. ![#49D4C6](https://via.placeholder.com/15/49D4C6/000000?text=+) `#49D4C6`
-        5. ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF`
-
-___
 
 + ## ___Tipografia___
     | Estilo Tipográfico | Ejemplo | Implementacion | Variaciones a usar |
