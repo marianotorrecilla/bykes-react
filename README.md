@@ -18,14 +18,14 @@ ___
 
 
 + ## ___Herramientas Utilizadas___
-    1. ReactJS
-    2. Firebase - Base de Datos NoSQL
-    3. React Router DOM
-    4. Bootstrap
-    5. react-toastify
-    6. sweetalert2
-    7. @hookform/resolvers
-    8. yup
+    ReactJS
+    Firebase - Base de Datos NoSQL
+    React Router DOM
+    Bootstrap
+    react-toastify
+    sweetalert2
+    @hookform/resolvers
+    yup
 
 
 ___
