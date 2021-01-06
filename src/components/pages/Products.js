@@ -44,9 +44,6 @@ const Products = () => {
                                 <h2 className="">
                                 ${product.precio}
                                 </h2>
-                                <Button className="mt-1 btn-small boton" variant="transparent" onClick={()=> setCurrentSelectId(product.id)}>
-                                    <Link to={`products/${product.id}`} onClick={()=> setCurrentSelectId(product.id)} style={{color: 'white'}} className="boton-ver">VER</Link>
-                                </Button>
                             </Card.Title>
                         </Card.ImgOverlay>
                     </Card>

@@ -7,7 +7,6 @@ import NavBar from './components/layout/NavBar';
 import Footer from './components/layout/Footer';
 import Home from './components/pages/Home';
 import Products from './components/pages/Products';
-import ProductInd from './components/pages/ProductInd';
 import Create from './components/pages/Create';
 import Edit from './components/pages/Edit';
 import Loading from './components/layout/Loading';
@@ -22,7 +21,6 @@ function App() {
 
         <Route path="/" exact component={Home} />
         <Route path="/products" exact component={Products} />
-        <Route path="/products/:id" exact component={ProductInd} />
         
         <Suspense fallback={<Loading />}>
           <Switch>

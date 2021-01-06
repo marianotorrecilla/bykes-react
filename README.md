@@ -42,3 +42,9 @@ ___
     | Sans Serif  | [Barlow Condensed](https://fonts.google.com/specimen/Barlow+Condensed) [Roboto](https://fonts.google.com/specimen/Roboto)  | Barlow Condensed para Títulos y Roboto para párrafos | Regular 400 - Bold 700 |
 
 ___
+
++ ## ___Implementación___
+    - __Clonar repositorio__
+    - __Ejecutar el comando npm i__
+
+___
