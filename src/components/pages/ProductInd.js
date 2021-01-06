@@ -14,10 +14,11 @@ const ProductInd = (props) => {
 
     const getProductById = async (id) => {
         const doc = await db.collection('products').doc(id).get();
-        console.log(doc);
+        console.log(doc.id);
         setValues({...doc.data()})
         
     }
+
 
     useEffect(() => {
         if(props.currentSelectId === '') {
@@ -26,9 +27,6 @@ const ProductInd = (props) => {
             getProductById(props.currentSelectId)
         }
     }, [props.currentSelectId])
-
-
-
 
 
     return (

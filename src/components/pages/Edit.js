@@ -1,5 +1,4 @@
 import React, { useEffect} from 'react';
-//import {db} from '../../firebase';
 import {app} from '../../base';
 import {Link} from 'react-router-dom';
 import {Col, Row, Form, Button} from 'react-bootstrap';
@@ -32,12 +31,12 @@ const Edit = (props) => {
     const addEditProduct = async (productObject) => {
         try {
             
-                await db.collection('products').doc(props.currentId).update(productObject);
-                toast('Producto Editado!!!', {
-                        type: "warning",
-                        autoClose: 2000
-                })
-                props.setCurrentId('')
+            await db.collection('products').doc(props.currentId).update(productObject);
+            toast('Producto Editado!!!', {
+                type: "warning",
+                autoClose: 2000
+            })
+            props.setCurrentId('')
                  
            
             

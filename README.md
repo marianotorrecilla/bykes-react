@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# ___BYKES-REACT___
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Proyecto integrador perteneciente al curso de ReactJs de la UTN. Pequeña aplicación readaptada de un trabajo anterior realizado. Página que cuenta con un CRUD y base de datos Firebase - NoSQL, desde el cual puedes crear, ver, editar y borrar productos. 
+___
 
-## Available Scripts
++ ## ___Integrante___
+    
+    - __Mariano Torrecilla Carande__
 
-In the project directory, you can run:
+        ```
+        Full Stack Developer | Lic. Cs. Comunicación .
+        Estoy dando mis primeros pasos en la programación y enfocándome en el Frontend ya que es lo que más me gusta dentro de este mundo.
+        32 años.
+        
+    ___
+___
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
++ ## ___Herramientas Utilizadas___
+    1. ReactJS
+    2. Firebase - Base de Datos NoSQL
+    3. React Router DOM
+    4. Bootstrap
+    5. react-toastify
+    6. sweetalert2
+    7. @hookform/resolvers
+    8. yup
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+___
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
++ ## ___Caracteristicas Principales___
+    1. Minimalismo
+    2. Practicidad
+    3. Funcionalidad
+___
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
++ ## ___Paleta de colores___
+    - __Basado en la siguiente:__ [___Link___](https://coolors.co/000000-91918d-ff6000-49d4c6-ffffff)
+        1. ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `#000000`
+	    2. ![#91918D](https://via.placeholder.com/15/91918D/000000?text=+) `#91918D`
+	    3. ![#FF6000](https://via.placeholder.com/15/FF6000/000000?text=+) `#FF6000`
+        4. ![#49D4C6](https://via.placeholder.com/15/49D4C6/000000?text=+) `#49D4C6`
+        5. ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF`
 
-### `npm run eject`
+___
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
++ ## ___Tipografia___
+    | Estilo Tipográfico | Ejemplo | Implementacion | Variaciones a usar |
+    | ------------- | ------------- | ------------- | ------------- |
+    | Sans Serif  | [Barlow Condensed](https://fonts.google.com/specimen/Barlow+Condensed) [Roboto](https://fonts.google.com/specimen/Roboto)  | Barlow Condensed para Títulos y Roboto para párrafos | Regular 400 - Bold 700 |
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+___

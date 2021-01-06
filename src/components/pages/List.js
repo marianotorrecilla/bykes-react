@@ -69,10 +69,6 @@ const List = () => {
     return (
         <>
         <Container>
-
-            
-            
-
             <article xs="12" md="12" lg="12" xl="12" className="mt-5 d-flex justify-content-center border-bottom border-dark">
                 <h5 className="titulo p-3">LISTADO DE PRODUCTOS</h5>
             </article>

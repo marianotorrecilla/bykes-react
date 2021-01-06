@@ -33,7 +33,7 @@ const Products = () => {
             <Container fluid className="mt-5 cuerpo">
             <Row>
                 {products.map((product) => (
-                    <Col md="12" lg="12" xl="12" xs="12">
+                    <Col md="12" lg="12" xl="12" xs="12" key={product.id}>
                     <Card className="bg-transparent text-white border-0">
                         <Card.Img src={product.file} alt={product.marca} className="w-100"/>
                         <Card.ImgOverlay>
