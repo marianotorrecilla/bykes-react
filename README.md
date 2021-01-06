@@ -17,18 +17,16 @@ ___
 
 
 
-+ ## ___Herramientas Utilizadas___
-    ReactJS
-    Firebase - Base de Datos NoSQL
-    React Router DOM
-    Bootstrap
-    react-toastify
-    sweetalert2
-    @hookform/resolvers
-    yup
-
-
-___
++ ## ___Tecnologías utilizadas___
+    - __React:__ 
+        1. `hookform/resolvers`
+        2. `React Hook Form`
+        3. `React Router Dom`
+        3. `React Toastify`
+    - __Firebase__
+    - __Bootstrap__
+    - __Sweet Alert 2__
+    - __Yup__
 
 
 + ## ___Caracteristicas Principales___
