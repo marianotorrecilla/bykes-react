@@ -1,6 +1,6 @@
 # ___BYKES-REACT___
 
-Proyecto integrador perteneciente al curso de ReactJs de la UTN. Pequeña aplicación readaptada de un trabajo anterior realizado. Página que cuenta con un CRUD y base de datos Firebase - NoSQL, desde el cual puedes crear, ver, editar y borrar productos. 
+Proyecto integrador perteneciente al curso de ReactJs de la UTN. Aplicación de un CRUD con base de datos Firebase - NoSQL, desde la cual puedes crear, ver, editar y borrar productos. Pequeña readaptación usando React de un trabajo anterior.
 ___
 
 + ## ___Integrante___
@@ -9,7 +9,7 @@ ___
 
         ```
         Full Stack Developer | Lic. Cs. Comunicación .
-        Estoy dando mis primeros pasos en la programación y enfocándome en el Frontend ya que es lo que más me gusta dentro de este mundo.
+        Estoy dando mis primeros pasos en la programación. Me enfoco en el Frontend.
         32 años.
         
     ___
